@@ -53,6 +53,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 130px;
 }
 .hero-section {
     display: flex;
