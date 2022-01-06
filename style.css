@@ -31,7 +31,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 h3 {
     font-size: 24px;
@@ -48,12 +48,12 @@ a {
 }
 /*  Hero Section */
 #hero {
-    height: 600px;
+    height: 500px;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 130px;
+    padding-top: 100px;
 }
 .hero-section {
     display: flex;
