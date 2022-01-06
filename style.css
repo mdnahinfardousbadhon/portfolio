@@ -7,17 +7,30 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+section {
+    padding: 60px 0;
+}
 .row {
     width: 1140px;
     margin: 0 auto;
 }
 h1 {
-     color: #333;
+    color: #34495e;
     font-size: 42px;
     font-weight: 700;
     line-height: 1.4;
     border-left: 5px solid #55efc4;
     padding-left: 10px;
+}
+h2 {
+    color: #34495e;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+h3 {
+    font-size: 24px;
 }
 a {
     color: #fff;
@@ -25,12 +38,13 @@ a {
     text-decoration: none;
     padding: 12px 40px;
     background-color: #55efc4;
-    border-radius: 3px;
+    border-radius: 5px;
     
 }
 /*  Hero Section */
 #hero {
-    height: 90vh;
+    height: 70vh;
+    padding-top: 100px;
 }
 .hero-section {
     display: flex;
@@ -48,7 +62,7 @@ a {
     line-height: 1.4;
 }
 .button {
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .hero-image {
     width: 50%;
@@ -56,5 +70,79 @@ a {
     text-align: center;
 }
 .hero-image img {
-    width: 60%;
+    width: 70%;
+}
+/* Mission Section */
+#mission h2 span {
+    color: #55efc4;    ;
+}
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-content {
+    background-color: #ffeaa7;
+    padding: 40px 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mission-content:first-child{
+    background-color: #edf5f6;
+}
+.mission-content:nth-child(2) {
+    background-color: #ffeeee;
+}
+.mission-content:last-child {
+    background-color: #fff4d6;
+}
+.mission-content:first-child img {
+    width: 32%;
+}
+.mission-content:nth-child(2) img {
+    width: 30%;
+}
+.mission-content:last-child img {
+    width: 26%;
+}
+.mission-content p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+/* Develop Section */
+.develop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.develop-image img {
+    width: 80%;
+}
+.development-content h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.development-content p {
+    line-height: 1.4;
+    width: 80%;
+}
+/* Global Community Section */
+.global-community-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.global-community-content h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.global-community-content p {
+    line-height: 1.4;
+    width: 80%;
+}
+.global-community-image {
+    text-align: center;
+}
+.global-community-image img {
+    width: 80%;
 }
