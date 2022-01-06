@@ -47,6 +47,10 @@ a {
 }
 /*  Hero Section */
 #hero {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 90vh;
     padding-top: 100px;
 }
@@ -77,6 +81,12 @@ a {
     width: 70%;
 }
 /* Mission Section */
+#mission {
+    background-image: url(images/mission.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #mission h2 span {
     color: #55efc4;    ;
 }
@@ -131,6 +141,12 @@ a {
     width: 80%;
 }
 /* Global Community Section */
+#global-community {
+    background-image: url(images/community-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .global-community-container {
     display: flex;
     align-items: center;
