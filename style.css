@@ -48,12 +48,12 @@ a {
 }
 /*  Hero Section */
 #hero {
+    height: 100vh;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .hero-section {
     display: flex;
@@ -104,12 +104,15 @@ a {
 }
 .mission-content:first-child{
     background-color: #edf5f6;
+    width: 33%;
 }
 .mission-content:nth-child(2) {
     background-color: #ffeeee;
+    width: 33%;
 }
 .mission-content:last-child {
     background-color: #fff4d6;
+    width: 33%;
 }
 .mission-content:first-child img {
     width: 32%;
@@ -118,7 +121,7 @@ a {
     width: 30%;
 }
 .mission-content:last-child img {
-    width: 26%;
+    width: 30%;
 }
 .mission-content p {
     font-size: 15px;
