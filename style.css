@@ -48,7 +48,7 @@ a {
 }
 /*  Hero Section */
 #hero {
-    height: 100vh;
+    height: 600px;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
